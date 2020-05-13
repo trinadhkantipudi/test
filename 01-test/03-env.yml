@@ -10,5 +10,5 @@ spec:
     - protocol: TCP
     port: 80
     targetport: 80
-  heads:
+  heads: windows
   lows: Linux
