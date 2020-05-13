@@ -1,0 +1,12 @@
+apiversion: v1
+kind: Pod
+metadata:
+  name: 03-env
+spec:
+  type: ClusterIP
+  selector:
+    app: nginx
+  ports:
+    - protocol: TCP
+    port: 80
+    targetport: 80
