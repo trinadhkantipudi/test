@@ -11,5 +11,4 @@ spec:
     port: 80
     targetport: 80
   heads:
-    OS: windows
   lows: Linux
